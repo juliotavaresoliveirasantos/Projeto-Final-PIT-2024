@@ -1,0 +1,68 @@
+.side-navbar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.nav-link:active, .nav-link:focus, .nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.my-cointainer {
+    background-color: gray;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+.active-cont {
+    margin-left: 300px;
+}
+
+#menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+}
+
+.p-1 {
+    transition: 0.5s;
+}
+
+.nav-link a {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-decoration: none;
+    border: 1px;
+    border-color:rgba(58, 58, 58, 0.25);
+    border-radius: 10px;
+    border-style: solid;
+    margin: 5%;
+    padding: 5%;
+    background-color:rgb(107, 107, 107);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover {
+    color: #000000;
+    background-color:rgb(255, 255, 255);
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+
+#FaBars {
+    border: 1px solid;
+    border-color:rgba(128, 128, 128, 0.5);
+    border-radius: 3px;
+    cursor: pointer;
+    scale: 2.5;
+    margin-left: 2%;
+}

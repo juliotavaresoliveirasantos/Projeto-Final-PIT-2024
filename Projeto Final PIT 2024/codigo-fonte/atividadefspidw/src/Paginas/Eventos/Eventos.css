@@ -1,0 +1,17 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+    text-align: center;
+}
+
+#BotoesTabela {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+Table {
+    font-size:larger;
+}

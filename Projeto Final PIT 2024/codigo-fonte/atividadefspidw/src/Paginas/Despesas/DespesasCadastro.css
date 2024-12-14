@@ -1,0 +1,29 @@
+#CardCadastroEvento {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    scale: 1.2;
+}
+
+#ColInfoEvento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 0.5);
+    box-shadow: -7px 7px 7px rgba(128, 128, 128, 0.308);
+    border-radius: 10px;
+}
+
+#CardCapaEvento {
+    box-shadow: -7px 7px 7px rgba(128, 128, 128, 0.308);
+}
+
+#CardCapaEventoTituto {
+    background: transparent;
+}
+
+#CapaTitulo {
+    position: fixed;
+    padding-top: 10px;
+    padding-left: 35px;
+}
